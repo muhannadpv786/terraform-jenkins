@@ -39,6 +39,6 @@ resource "aws_instance" "jenkins_ec2_instance_ip" {
 }
 
 resource "aws_key_pair" "jenkins_ec2_instance_public_key" {
-  key_name   = "testhp"
+  key_name   = "testingdell"
   public_key = var.public_key
 }
